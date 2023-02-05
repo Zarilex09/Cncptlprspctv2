@@ -6,7 +6,7 @@
 
 html,
 body {
-  @apply h-full bg-slate-50 text-black;
+  @apply h-full bg-white text-black;
 }
 
 span{

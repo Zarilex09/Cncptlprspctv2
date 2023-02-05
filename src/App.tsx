@@ -1,17 +1,16 @@
 import bgGIF from "./bg.gif";
-import logo from "./logo.svg";
+
 import logo2 from "./logo2.svg";
-import name from "./name.svg";
+import logo from "./logotest2.svg";
 import time1 from "./time.svg";
 import time2 from "./time2.svg"
 
 function App() {
   return (
     <div className="mx-auto flex min-h-screen max-w-10xl flex-col p-6 md:p-12">
-      <header className="grid grid-rows-10 grid-cols-8 gap-0">
-        <img className="row-start-1 row-end-7 col-span-3" src = {logo}/>
-        <img className="row-start-7 col-start-1 col-end-3" src = {name}/>
-        <button className="row-start-3 row-end-5 col-start-8 rounded-full bg-slate-900 px-6 py-2 text-white hover:bg-opacity-75">
+      <header className="grid grid-rows-4 grid-cols-8 gap-0">
+        <img className="row-start-1 row-span-4 col-span-2" src = {logo}/>
+        <button className="row-start-4 col-start-7 col-end-9 rounded-full bg-slate-900 px-6 py-2 text-white hover:bg-opacity-75">
                 Connect Wallet
         </button>
       </header>
