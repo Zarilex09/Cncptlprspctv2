@@ -9,16 +9,16 @@ function App() {
   return (
     <div className="mx-auto flex min-h-screen max-w-10xl flex-col p-6 md:p-12">
       <header className="grid grid-rows-4 grid-cols-8 gap-0">
-        <img className="row-start-1 row-span-4 col-span-2" src = {logo}/>
-        <button className="row-start-4 col-start-7 col-end-9 rounded-full bg-slate-900 px-6 py-2 text-white hover:bg-opacity-75">
+        <img className="row-start-0 row-span-4 col-span-2" src = {logo}/>
+        <button className="row-start-0 col-start-7 col-end-9 rounded-full bg-slate-900 px-6 py-2 text-white hover:bg-opacity-75">
                 Connect Wallet
         </button>
       </header>
       
       <main className="grid gap-2 rounded-lg p-6 lg:grid-cols-2 lg:p-12">
         <div className="flex flex-col items-center justify-left space-y-4">
-          <p className="text-xl font-bold">
-            <span>[Gen 1]Experiential Drop</span>
+          <p className="font-bold">
+            <p className="text-xl">[Gen 1] Experiential Drop</p>
             <span>&nbsp;</span>
             <span>Titled:*Abstract Glitch </span>
             <span>Description: Using color to solve problems from irregular prpsctvs.</span>
@@ -26,9 +26,9 @@ function App() {
             <span>Supply: OE Available For 48 Hours</span>
             <span>Cost: 40 Canto</span>
             <span>Drop Details: This will be an open-edition mint available for 48 hours.You will mint
-              "Color Equation #1" which will be required at each burn tier,5 in total, and all free to mint.
+              "Color Equation #1" which will be required at each burn tier, 5 in total, and all free to mint.
               Please visit the burn mechanic flow chart for more details. To mint at all burn tiers it will 
-              require 15 open editions. All mints after the initial phase 1/5 drops, will be connected to the 
+              require 15 open editions. All mints after the initial phase 1/5 drops will be connected to the 
               Gen 1 open edition to naturally deflate the supply.
             </span>
             <span>&nbsp;  </span>
@@ -41,9 +41,9 @@ function App() {
             </span>
             <span>&nbsp;  </span>
             <span>
-              The thesis that influences anything i create is a rooted in design + environment.
+              The thesis that influences anything I create is rooted in design + environment.
               That is to say that in my world the most complex idea should be simplified to its 
-              simplest form to protect the environment in which it has to survive in.This is how
+              simplest form to protect the environment in which it has to survive in. This is how
               you refine good ideas to become great ideas.
             </span>
             <span>&nbsp;  </span>
