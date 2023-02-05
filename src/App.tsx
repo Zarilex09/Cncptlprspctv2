@@ -25,7 +25,7 @@ function App() {
             <span>Blockchain: Canto</span>
             <span>Supply: OE Available For 48 Hours</span>
             <span>Cost: 40 Canto</span>
-            <span>Drop Details: This will be an open-edition mint available for 48 hours.You will mint
+            <span>Drop Details: This will be an open-edition mint available for 48 hours. You will mint
               "Color Equation #1" which will be required at each burn tier, 5 in total, and all free to mint.
               Please visit the burn mechanic flow chart for more details. To mint at all burn tiers it will 
               require 15 open editions. All mints after the initial phase 1/5 drops will be connected to the 
